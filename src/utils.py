@@ -3,10 +3,6 @@ import numpy as np
 import faiss
 from sentence_transformers import SentenceTransformer
 from llama_cpp import Llama
-from colorama import Fore, Style, init
-
-# Inicializar colorama
-init(autoreset=True)
 
 # Cargar modelo local
 llm = Llama(model_path="models/mistral-7b-instruct-v0.1.Q4_K_M.gguf")
@@ -42,32 +38,3 @@ def recuperar_contexto(pregunta, frases, modelo, index, k=5):
     emb = modelo.encode([pregunta])
     _, idxs = index.search(emb, k)
     return "\n".join([frases[i] for i in idxs[0]])
-
-
-def main():
-    # Rutas a los CSV generados previamente
-    path_bloomberg = "./data/frases_bloomberg.csv"
-    path_metricas = "./data/frases_metricas_titulizaciones.csv"
-
-    print(f"{Fore.CYAN}Cargando frases...")
-    frases = cargar_frases(path_bloomberg, path_metricas)
-
-    print(f"{Fore.CYAN}Generando embeddings y construyendo índice...")
-    index, modelo, frases = construir_indice(frases)
-
-    print(f"{Fore.GREEN}Todo listo. Haz tus preguntas:")
-    while True:
-        pregunta = input(f"\n{Fore.YELLOW}Pregunta (o escribe 'salir'): ").strip()
-        if pregunta.lower() == "salir":
-            print(f"{Fore.RED}Saliendo del programa. ¡Hasta luego!")
-            break
-        contexto = recuperar_contexto(pregunta, frases, modelo, index)
-        print(f"\n{Fore.BLUE}Contexto relevante recuperado:\n")
-        print(f"{Style.BRIGHT}{contexto}")
-
-        respuesta = responder_con_llama(contexto, pregunta)
-        print(f"\n{Fore.MAGENTA}Respuesta generada:\n")
-        print(f"{Style.BRIGHT}{respuesta}")
-
-if __name__ == "__main__":
-    main()
