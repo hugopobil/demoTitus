@@ -1,0 +1,13 @@
+/data
+/.venv
+/.env
+/.vscode
+/.idea
+/.DS_Store
+/.pytest_cache
+/.mypy_cache
+/.coverage
+/.coverage.*
+/.ropeproject
+/.ropeproject
+/models
