@@ -1,0 +1,101 @@
+ID,Ano,ActivoSubyacente,Emisor,MoraMedia_3A,Spread,Calificacion,Tramos
+TIT001,2023,Préstamos sindicados,Cooperativa Lambda,2.7,70,CCC,Senior/Mezzanine
+TIT002,2022,Factoring,Entidad Gamma,1.88,166,BBB,Senior/Mezzanine/Equity
+TIT003,2024,Hipotecas comerciales,Financiera Omega,3.0,87,AA,Senior/Equity
+TIT004,2024,Hipotecas residenciales,Banco Delta,2.33,138,AAA,Senior/Mezzanine/Equity
+TIT005,2022,Factoring,Banco Beta,0.64,64,A,Senior/Equity
+TIT006,2023,Créditos agrícolas,Banco Alfa,0.64,100,CCC,Mezzanine
+TIT007,2020,Factoring,Banco Beta,3.35,109,AA,Senior/Mezzanine
+TIT008,2020,Hipotecas comerciales,Banco Epsilon,1.19,141,CCC,Senior/Equity
+TIT009,2024,Créditos agrícolas,Cooperativa Lambda,1.02,130,BBB,Senior/Mezzanine
+TIT010,2023,Hipotecas comerciales,Banco Zeta,2.06,155,BBB,Equity
+TIT011,2024,Factoring,Banco Beta,2.83,63,CC,Equity
+TIT012,2023,Hipotecas residenciales,Banco Zeta,1.48,131,BB,Senior/Mezzanine
+TIT013,2020,Leasing vehículos,Banco Delta,2.13,90,AAA,Senior
+TIT014,2020,Créditos agrícolas,Banco Alfa,1.1,112,A,Senior
+TIT015,2022,Préstamos personales,Banco Alfa,2.32,90,CCC,Senior
+TIT016,2023,Hipotecas comerciales,Banco Alfa,0.69,111,CC,Mezzanine
+TIT017,2022,Leasing vehículos,Financiera Omega,1.32,84,AAA,Senior/Mezzanine/Equity
+TIT018,2024,Factoring,Banco Zeta,3.05,54,CCC,Equity
+TIT019,2022,Hipotecas residenciales,Cooperativa Lambda,1.78,91,A,Senior
+TIT020,2023,Préstamos sindicados,Financiera Omega,2.59,192,BBB,Mezzanine
+TIT021,2022,Préstamos personales,Banco Zeta,3.14,94,C,Mezzanine
+TIT022,2023,Leasing vehículos,Banco Delta,1.06,79,CCC,Senior/Equity
+TIT023,2020,Factoring,Banco Zeta,0.83,170,C,Senior/Equity
+TIT024,2024,Hipotecas residenciales,Entidad Gamma,0.52,186,BB,Senior
+TIT025,2022,Hipotecas comerciales,Banco Delta,1.23,108,B,Senior
+TIT026,2023,Hipotecas residenciales,Banco Zeta,3.42,101,CCC,Senior/Mezzanine
+TIT027,2022,Hipotecas residenciales,Banco Epsilon,1.35,130,AAA,Senior/Mezzanine
+TIT028,2021,Leasing vehículos,Banco Zeta,0.6,178,A,Equity
+TIT029,2021,Préstamos sindicados,Banco Delta,1.84,117,CCC,Senior/Mezzanine/Equity
+TIT030,2022,Hipotecas residenciales,Cooperativa Lambda,2.91,118,BBB,Senior/Mezzanine
+TIT031,2022,Factoring,Financiera Omega,2.9,173,B,Mezzanine
+TIT032,2022,Leasing vehículos,Banco Delta,2.53,196,A,Senior/Mezzanine/Equity
+TIT033,2023,Créditos agrícolas,Cooperativa Lambda,1.02,177,CCC,Senior/Mezzanine
+TIT034,2020,Préstamos personales,Banco Delta,2.71,91,A,Senior/Equity
+TIT035,2021,Créditos agrícolas,Banco Alfa,2.05,162,AA,Senior
+TIT036,2023,Préstamos sindicados,Banco Epsilon,3.15,58,C,Senior/Mezzanine/Equity
+TIT037,2022,Créditos agrícolas,Financiera Omega,3.19,103,CC,Senior
+TIT038,2023,Préstamos personales,Banco Alfa,0.98,153,BBB,Equity
+TIT039,2022,Créditos agrícolas,Banco Zeta,3.32,142,AA,Equity
+TIT040,2021,Hipotecas comerciales,Banco Zeta,1.85,117,AAA,Equity
+TIT041,2024,Créditos agrícolas,Banco Delta,1.6,185,CCC,Senior/Mezzanine/Equity
+TIT042,2020,Créditos agrícolas,Banco Alfa,2.13,164,B,Equity
+TIT043,2024,Préstamos personales,Banco Zeta,3.22,76,AA,Mezzanine
+TIT044,2020,Leasing vehículos,Cooperativa Lambda,1.98,110,A,Senior/Equity
+TIT045,2022,Créditos agrícolas,Banco Alfa,0.63,95,BB,Equity
+TIT046,2022,Leasing vehículos,Banco Alfa,3.36,142,AAA,Equity
+TIT047,2024,Factoring,Entidad Gamma,3.44,165,BB,Senior
+TIT048,2022,Créditos agrícolas,Banco Beta,2.17,103,A,Equity
+TIT049,2021,Créditos agrícolas,Cooperativa Lambda,3.47,176,AA,Senior/Mezzanine
+TIT050,2020,Créditos agrícolas,Banco Alfa,0.91,88,CCC,Senior/Mezzanine
+TIT051,2022,Hipotecas comerciales,Banco Alfa,2.33,109,CCC,Senior
+TIT052,2023,Préstamos sindicados,Banco Delta,2.45,193,A,Senior/Equity
+TIT053,2021,Hipotecas comerciales,Financiera Omega,2.23,135,A,Senior
+TIT054,2021,Factoring,Banco Zeta,1.36,107,B,Senior
+TIT055,2023,Hipotecas comerciales,Banco Zeta,1.41,150,AAA,Mezzanine
+TIT056,2023,Leasing vehículos,Banco Delta,2.37,55,BBB,Equity
+TIT057,2022,Factoring,Financiera Omega,2.68,62,AA,Senior/Equity
+TIT058,2021,Tarjetas de crédito,Entidad Gamma,2.89,112,A,Senior/Equity
+TIT059,2021,Factoring,Banco Beta,0.58,166,CCC,Senior
+TIT060,2023,Préstamos sindicados,Banco Alfa,1.02,50,AA,Equity
+TIT061,2020,Créditos agrícolas,Banco Epsilon,1.34,65,CCC,Mezzanine
+TIT062,2024,Factoring,Entidad Gamma,1.24,193,A,Mezzanine
+TIT063,2020,Préstamos sindicados,Banco Zeta,0.78,96,AAA,Equity
+TIT064,2023,Préstamos sindicados,Banco Delta,0.55,134,CCC,Senior/Equity
+TIT065,2020,Tarjetas de crédito,Banco Zeta,2.45,59,B,Mezzanine
+TIT066,2023,Hipotecas comerciales,Banco Delta,1.62,196,AAA,Mezzanine
+TIT067,2024,Leasing vehículos,Financiera Omega,0.71,51,AAA,Senior/Equity
+TIT068,2022,Leasing vehículos,Financiera Omega,2.53,173,AAA,Senior
+TIT069,2024,Préstamos personales,Entidad Gamma,3.32,116,AAA,Senior
+TIT070,2021,Préstamos personales,Banco Delta,1.32,61,AA,Mezzanine
+TIT071,2022,Hipotecas comerciales,Entidad Gamma,1.51,139,CC,Mezzanine
+TIT072,2021,Hipotecas comerciales,Banco Beta,1.52,164,C,Senior/Equity
+TIT073,2021,Préstamos sindicados,Banco Beta,2.39,169,BBB,Senior
+TIT074,2024,Préstamos sindicados,Banco Alfa,2.14,150,C,Senior/Mezzanine/Equity
+TIT075,2020,Préstamos personales,Financiera Omega,0.88,145,CC,Equity
+TIT076,2024,Leasing vehículos,Banco Alfa,2.54,72,C,Senior/Mezzanine/Equity
+TIT077,2020,Tarjetas de crédito,Banco Alfa,2.1,133,C,Equity
+TIT078,2024,Préstamos personales,Entidad Gamma,1.67,189,C,Senior/Mezzanine/Equity
+TIT079,2023,Hipotecas residenciales,Cooperativa Lambda,3.37,177,BBB,Senior/Mezzanine/Equity
+TIT080,2021,Factoring,Financiera Omega,1.85,148,C,Senior/Equity
+TIT081,2022,Préstamos sindicados,Banco Delta,3.34,193,C,Mezzanine
+TIT082,2024,Hipotecas comerciales,Banco Beta,0.67,171,BB,Senior/Mezzanine/Equity
+TIT083,2024,Préstamos personales,Entidad Gamma,0.85,125,C,Senior/Mezzanine
+TIT084,2021,Leasing vehículos,Banco Alfa,0.8,56,CC,Senior/Mezzanine
+TIT085,2020,Hipotecas comerciales,Entidad Gamma,2.62,54,BB,Equity
+TIT086,2022,Créditos agrícolas,Financiera Omega,3.09,135,BBB,Senior
+TIT087,2020,Préstamos sindicados,Banco Delta,1.55,68,B,Senior/Mezzanine/Equity
+TIT088,2021,Hipotecas comerciales,Entidad Gamma,0.83,190,AA,Senior/Equity
+TIT089,2021,Leasing vehículos,Banco Delta,2.8,176,C,Senior
+TIT090,2022,Préstamos sindicados,Banco Delta,3.39,162,C,Senior
+TIT091,2024,Tarjetas de crédito,Banco Beta,0.54,110,BB,Equity
+TIT092,2024,Préstamos personales,Banco Delta,0.72,196,BBB,Senior
+TIT093,2021,Factoring,Banco Alfa,1.15,192,AAA,Mezzanine
+TIT094,2022,Créditos agrícolas,Cooperativa Lambda,0.64,61,CC,Equity
+TIT095,2023,Créditos agrícolas,Banco Delta,1.51,171,BBB,Senior/Mezzanine
+TIT096,2021,Leasing vehículos,Banco Beta,1.3,150,C,Senior/Equity
+TIT097,2022,Tarjetas de crédito,Cooperativa Lambda,2.11,190,A,Mezzanine
+TIT098,2021,Préstamos personales,Financiera Omega,2.24,59,CC,Equity
+TIT099,2021,Préstamos personales,Banco Epsilon,0.99,82,B,Senior
+TIT100,2021,Créditos agrícolas,Cooperativa Lambda,0.95,134,C,Equity

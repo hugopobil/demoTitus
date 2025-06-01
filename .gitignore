@@ -11,3 +11,4 @@
 /.ropeproject
 /.ropeproject
 /models
+/src/__pycache__/
