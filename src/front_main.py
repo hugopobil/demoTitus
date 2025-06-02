@@ -7,11 +7,13 @@ from data_loader import cargar_frases_desde_csv
 from sintetica_loader import cargar_noticias_json
 import sintetica_loader
 import json
+import sys
 
+sys.modules["torch.classes"] = None
 noticias_sinteticas_dir = "./data/info_sintetica/noticias_titulizaciones.json"
 
-st.set_page_config(page_title="Consulta de Noticias de Titulizaciones", layout="wide")
-st.title("📰 Consulta Inteligente de Noticias de Titulizaciones")
+st.set_page_config(page_title="Consulta de Titulizaciones", layout="centered")
+st.title("📰 Consulta de Titulizaciones")
 
 modelo = st.selectbox("Selecciona el modelo a usar:", ["local", "azure"])
 
@@ -61,7 +63,8 @@ if pregunta:
         contexto = recuperar_contexto(pregunta, frases, modelo_embed, index)
 
     st.subheader("📌 Contexto relevante")
-    st.write(contexto)
+    for i, frase in enumerate(contexto, start=1):
+        st.write(f"**{i}.** {frase}")
 
     with st.spinner("Generando respuesta..."):
         if modelo == "local":
